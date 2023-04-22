@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+        <link rel='stylesheet' href='http://www.devanswer.com/codes/files/skn8ash.css'/>
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css'>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/react/16.13.1/umd/react.production.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.1/umd/react-dom.production.min.js'></script>
+        <script src='https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r118/three.min.js'></script>
+        <script src="https://kit.fontawesome.com/3219cc2f1b.js" crossorigin="anonymous"></script>
+        <!--<script src="script/script.js"></script>-->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <link href = "style3.css" rel = "stylesheet">
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+    </head>
+        <body>
+        <div class = "hello">
+            <div class = "menu">
+                    <div class = "logo">
+                        <h1><p class = "yellow">App<p class = "blue">Lab</p></p></h1>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li>
+                                <!--<a>Домой</a>-->
+                                <a>Обо мне</a>
+                                <a>Прайс-лист</a>
+                                <a>Отзывы</a>
+                                <a>FAQ</a>
+                                <button class = "info">Написать мне</button>
+                            </li>
+                        </ul>
+                    </nav>
+            </div>
+            <div class = "text">
+                <div class = "line">
+                   <!--- <div class = "mark"></div>
+                    <h2>#1 Выбор пользователей в 2020</h2>--->
+                </div>
+                <h1>
+                    Веб дизайнер и Программист <br>к вашим услугам
+                </h1>
+                <h3>
+                    Повысьте производительность с помощью простого приложения<br>для управления вашим личным бюджетом.
+                </h3>
+                <div class = "buttons">
+                    <button href = "#" class = "info">Вперед!</button>
+                    <a href = "#">Резюме</a>
+                </div>
+            </div>
+            <div class = "vector"></div><br>
+            <div class = "vector1"></div>
+            <div class = "vector2"></div>
+            <!--<img src = "image/vector.png">-->
+            <div class = "block2"></div>
+            <div class = "block1"></div>
+        </div>
+        
+        <div class = "about-me">
+            <h1>Cо мной сотрудничают</h1>
+            <div class = "company"></div>
+            <!---<img src = "image/vector2.png">-->
+            <div class = "about__block">Какие услуги я предлагаю?</div>
+            <p>
+                Более двух лет у меня было много возможностей работать в широком спектре веб-технологий, что позволило мне накопить значительный объем разнообразного опыта            </p>
+            <div class = "vector__first"></div>
+            <div class = "image__block">
+                <div class = "image"></div>
+                <h2>Веб-дизайн</h2>
+                <h3>Дизайн плакатов, баннеров, визитных карт, буклетов, флаеров, обработка фотографий</h3>
+            </div>
+
+            <div class = "image__block">
+                <div class = "image1"></div>
+                <h2 style = "color: #2563FF">Кодинг</h2>
+                <h3>Создание сайтов под ключ с учетом всех пожеланий к интерфейсу и дизайну</h3>
+            </div>
+
+            <div class = "image__block">
+                <div class = "image2"></div>
+                <h2 style = "color: #40975F">Копирайтинг</h2>
+                <h3>Написание продающих текстов</h3>
+            </div>
+        </div>
+            <script>
+                const tl = gsap.timeline()
+
+                tl.fromTo('h1', {
+                    x: -100,
+                    opacity: 0,
+                },{
+                    x: 0,
+                    opacity: 1,
+                    duration: 1,
+                }
+                )
+            </script>
+        </body>
+</html>
